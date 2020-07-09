@@ -7,17 +7,24 @@
         git clone https://github.com/ahmed-el-khoribi/Paytabs-Task.git      
        
  - Create Database, the set the configuration in (app/Config/Database.php) file.
- - Through the terminal run those three command
+ 
+ - Move to cloned project 
+       
+       cd Paytabs-Task
 
-        php spark migrate       
+ - Through the terminal run this custom made command
 
-        php spark db:seed CategorySeeder    
+       /** for Windows */
 
-        php spark serve
+        . run.sh
+
+       /** for Ubunto */
+
+       bash run.sh     
 
  - Open the browser on      http://localhost:8080/      
 
- ** Enjoy the project
+ **Enjoy the project**
 
 ## Local environment / Server Requirements
 
