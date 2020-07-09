@@ -2,9 +2,13 @@
 
 ## How to run the project
 
+ - Clone the repo
+
+        git clone https://github.com/ahmed-el-khoribi/Paytabs-Task.git      
+       
  - Create Database, the set the configuration in (app/Config/Database.php) file.
  - Through the terminal run those three command
- 
+
         php spark migrate       
 
         php spark db:seed CategorySeeder    
