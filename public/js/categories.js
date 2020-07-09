@@ -64,7 +64,7 @@ $(document).ready(function(){
   function initChild(data, referenceID, title) 
   {
       let div = $("#newChilds");
-      div.append('<div class="col-md-12" id="div_' + referenceID + '"data-by="' + referenceID + '"><h3><center>Child Categories of ' + title + '</center></h3><select onchange="performAJAX(this)" class="form-control" id="select' + referenceID + '"></select></div>');
+      div.append('<div class="col-md-12" id="div_' + referenceID + '"><h3><center>Child Categories of ' + title + '</center></h3><select onchange="performAJAX(this)" class="form-control" id="select' + referenceID + '"></select></div>');
   
       let sel = $('#select' + referenceID);
   
