@@ -8,11 +8,9 @@ $(document).ready(function(){
           dataType: "json",       
           success: function(response)  
           {
-              initPage(response);
+            initPage(response);
           }   
     });
-      
-     
   });
   
   /**
@@ -28,7 +26,8 @@ $(document).ready(function(){
         if(i === 0){
             sel.append('<option disabled selected>-- Choose Category --</option>');
         }
-          sel.append('<option value="' + data[i].id + '">' + data[i].title + '</option>');
+        
+        sel.append('<option value="' + data[i].id + '">' + data[i].title + '</option>');
       }
   }
   
@@ -72,6 +71,7 @@ $(document).ready(function(){
           if(i === 0){
               sel.append('<option disabled selected>-- Choose Sub-Category --</option>');
           }
+          
           sel.append('<option value="' + data[i].id + '">' + data[i].title + '</option>');
       }
       $("#newChilds").show();
