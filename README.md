@@ -6,7 +6,7 @@
 
         git clone https://github.com/ahmed-el-khoribi/Paytabs-Task.git      
        
- - Create Database, the set the configuration in (app/Config/Database.php) file.
+ - Create Database, then set the configuration in (app/Config/Database.php) file.
  
  - Move to cloned project 
        
