@@ -20,7 +20,7 @@
                 Parent Categories
             </center>
         </h3>
-        <select class="form-control" id="parent" onchange="performAJAX(this)">
+        <select class="form-control" id="parent" onchange="performAJAX(this)" data-type="parent">
             <option>-- --</option>
         </select>
       </div>

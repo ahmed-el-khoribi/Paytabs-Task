@@ -47,6 +47,10 @@ $(document).ready(function(){
                 $("#div_" + element.getAttribute("data-creator")).remove();
               }
               
+              if(element.getAttribute("data-type") == 'parent'){
+                $("#newChilds").empty();
+              }
+              
               element.setAttribute('data-creator', parent_id);
               
               initChild(response, parent_id, title);
